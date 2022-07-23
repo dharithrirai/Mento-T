@@ -1,0 +1,29 @@
+<!--<resources>-->
+<!--    <string name="app_name">Mento-T</string>-->
+<!--    <string name="menu_Open">Open</string>-->
+
+<!--    <string name="close_menu">close</string>-->
+
+<!--</resources>-->
+
+
+<resources>
+    <string name="app_name">Mento-T</string>
+
+    <!--to toggle the open close button
+        of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="Col1">SUB</string>
+    <string name="Col2">IA1</string>
+
+    <string name="Col3">IA2</string>
+
+    <string name="Col4">IA3</string>
+
+    <string name="Col5">IA</string>
+    <string name="Col6">Ext</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

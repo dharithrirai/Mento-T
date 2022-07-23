@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+ <item
+     android:id="@+id/Home"
+     android:title="Home" android:icon="@drawable/ic_baseline_home_24" />
+
+ <item
+     android:id="@+id/Schedule"
+     android:title="schedule" android:icon="@drawable/ic_baseline_schedule_24" />
+ <item
+     android:id="@+id/Marks"
+     android:title="Marks" android:icon="@drawable/ic_baseline_assignment_ind_24" />
+ <item
+     android:id="@+id/Activity"
+     android:title="Activity" android:icon="@drawable/ic_baseline_emoji_events_24" />
+
+  <item
+      android:id="@+id/feed"
+      android:title="Feed"  android:icon="@drawable/ic_baseline_chat_24"/>
+
+</menu>

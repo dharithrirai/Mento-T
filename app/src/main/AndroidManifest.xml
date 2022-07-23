@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dharithri.mento_t">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MentoT"
+        tools:targetApi="31">
+        <activity
+            android:name=".adminactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Adminfeed"
+            android:exported="false" />
+        <activity
+            android:name=".Sem1admin"
+            android:exported="false" />
+        <activity
+            android:name=".notifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Adminmarks"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".testmainactivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mentorLogin"
+            android:exported="false" />
+        <activity
+            android:name=".userActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sem1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".marksdash"
+            android:exported="false" />
+        <activity
+            android:name=".homeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".signinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admindashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MenteeDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MentorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

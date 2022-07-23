@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "594240873391",
+    "firebase_url": "https://mento-te-default-rtdb.firebaseio.com",
+    "project_id": "mento-te",
+    "storage_bucket": "mento-te.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594240873391:android:65f376fc9fc386f43e455a",
+        "android_client_info": {
+          "package_name": "com.dharithri.mento_t"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594240873391-evc6ijn7hthaqm3jca822qqq2vljhmc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dharithri.mento_t",
+            "certificate_hash": "997565166dce0a1232436ada33594d664e1d9d6c"
+          }
+        },
+        {
+          "client_id": "594240873391-rmv6mk1e2elfikebsbrb2op53tpg6i1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxiMD8LyK3uevNfCxSlMa6EbVN4HhTVmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594240873391-rmv6mk1e2elfikebsbrb2op53tpg6i1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

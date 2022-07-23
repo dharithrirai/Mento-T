@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feed"
+    tools:context=".FeedFragment">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="69dp"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="To"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="Subject"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintLeft_toLeftOf="@+id/editText1"
+        app:layout_constraintTop_toBottomOf="@+id/editText1">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="57dp"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintLeft_toLeftOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/datefeed"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="156dp"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="DD/MM/YYYY"
+        android:inputType="textMultiLine"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintLeft_toLeftOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="#ffffff"
+        android:text="Send"
+        android:textColor="#1766E0"
+        app:cornerRadius="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+</androidx.constraintlayout.widget.ConstraintLayout>
